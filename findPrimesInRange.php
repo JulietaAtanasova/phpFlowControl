@@ -32,6 +32,10 @@
     return true;
     }
 
+    if ($startIndex > $endIndex) {
+      echo "Your END index should be bigger.";
+    }
+    
     for ($i = $startIndex; $i <= $endIndex; $i++) {
       if (isPrime($currentNumber)) {
         echo '<strong>';
@@ -48,7 +52,6 @@
       }
       $currentNumber++;
     }
-      
      
   }
   ?>
