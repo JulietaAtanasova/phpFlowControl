@@ -12,7 +12,7 @@
 if (isset($_GET['submit'])) {
     echo "<table border=\"1\">";
     echo "<tr><th>Year</th>";
-    echo "<th>January</th>";
+    echo "<th>January</th>";    
     echo "<th>February</th>";
     echo "<th>March</th>";
     echo "<th>April</th>";
@@ -39,11 +39,11 @@ if (isset($_GET['submit'])) {
       $count2 = count($years[$i]);
       echo "<tr><td>" . ($year-($i+1));
 
-    for ($j=0; $j<$count2; $j++) {
-       echo "</td><td>" . $years[$i][$j] . "</td>";
+        for ($j=0; $j<$count2; $j++) {
+           echo "</td><td>" . $years[$i][$j] . "</td>";
+        }
     }
     echo '<br />';
-    }
 }
 ?>
 </body>

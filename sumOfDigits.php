@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Prime in Range</title>
+  <title>Sum of Digits</title>
 </head>
 <body>
   <form action="<?php $_PHP_SELF ?>" method="GET">

@@ -17,7 +17,7 @@
         echo "<tr><th>Car</th>";
         echo "<th>Color</th>";
         echo "<th>Count</th></tr>";
-        $cars = explode(', ',$_GET['input']);
+        $cars = explode(', ', $_GET['input']);
     for ( $i = 0; $i < count($cars); $i++){
         $randomColor = rand(0, count($colors)-1);
         $color = $colors[$randomColor];
