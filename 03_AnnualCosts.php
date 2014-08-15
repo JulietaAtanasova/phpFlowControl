@@ -48,7 +48,7 @@
             }
             echo "</td><td>" . $sum . "</td>";
         }
-        echo '</tr>';
+        echo '<br />';
     }
     ?>
 </body>
