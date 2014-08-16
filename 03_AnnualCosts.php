@@ -36,11 +36,11 @@
         }
 
         $count1 = count($years);
-        $year = 2015;
+        $year = date("Y");
         for ($i=0; $i<$count1; $i++) {
             $sum = 0;
             $count2 = count($years[$i]);
-            echo "<tr><td>" . ($year-($i+1));
+            echo "<tr><td>" . ($year-($i));
 
             for ($j=0; $j<$count2; $j++) {
                 $sum += $years[$i][$j];
